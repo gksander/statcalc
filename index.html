@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Stat Calc</title>
+
+	<!--  MathJax -->
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- MathJS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.12.0/math.min.js"></script>
+	<!-- jStat -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/1.5.3/jstat.min.js"></script>
+	<!-- JSXGraph -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.99.5/jsxgraphcore.js"></script>
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript" src="js/main-dist.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+
+<div class="header-bar">
+	<div class="hamburger-container">
+		<i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+	</div>
+
+	<span class="logo">
+		StatCalc
+		<!-- <img src="img/asu-logo.png" alt="ASU logo"> -->
+	</span>
+</div>
+
+<div class="side-bar">
+	<ul>
+		<li><h3>Pages</h3></li>
+		<li><a href="#about">About</a></li>
+		<li><h3>CPF</h3></li>
+		<li><a href="#cpf-binomial">Binomial</a></li>
+		<li><a href="#cpf-discrete-uniform">Discrete Uniform</a></li>
+		<li><a href="#cpf-poisson">Poisson</a></li>
+		<li><a href="#cpf-continuous-uniform">Continuous Uniform</a></li>
+		<li><a href="#cpf-normal-gaussian">Normal (Gaussian)</a></li>
+		<li><a href="#cpf-student-t">(A.) Student's $t$-test</a></li>
+		<li><a href="#cpf-chi-squared">Chi-Squared ($\chi^2$)</a></li>
+		<li><a href="#cpf-f">F Distribution</a></li>
+		<li><a href="#cpf-lognormal">Log-normal</a></li>
+
+	</ul>
+</div>
+
+<div id="content-container">
+	<div id="content"></div>
+
+	<div id="description">
+		<div id="description-title"></div>
+		<div id="description-body"></div>
+	</div>
+</div>
+
+
+</body>
+</html>
