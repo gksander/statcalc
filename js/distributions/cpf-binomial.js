@@ -95,7 +95,11 @@ statcalc.distributions["cpf-binomial"] = {
 		        });
 
 
-			} catch(err){console.log(err);};
+			} catch(err){
+				$("#cpf-binomial-calculation").html(`
+					<p class="red">Invalid Input</p>
+				`);
+			};
 		});
 	},
 

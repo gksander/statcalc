@@ -1,6 +1,14 @@
 /*  PREPROS APPENDS */
 //@PREPROS-APPEND pages/about.js
 //@PREPROS-APPEND distributions/cpf-binomial.js
+//@PREPROS-APPEND distributions/cpf-discrete-uniform.js
+//@PREPROS-APPEND distributions/cpf-poisson.js
+//@PREPROS-APPEND distributions/cpf-continuous-uniform.js
+//@PREPROS-APPEND distributions/cpf-normal-gaussian.js
+//@PREPROS-APPEND distributions/cpf-student-t.js
+//@PREPROS-APPEND distributions/cpf-chi-squared.js
+//@PREPROS-APPEND distributions/cpf-f.js
+//@PREPROS-APPEND distributions/cpf-lognormal.js
 
 
 $(document).ready(function(){ // On document-ready
